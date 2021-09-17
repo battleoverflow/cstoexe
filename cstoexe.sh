@@ -20,7 +20,7 @@
 
 echo
 echo "Creator: Hifumi Sec (https://github.com/Hifumi-Sec)"
-echo "Version: 1.0.1"
+echo "Version: 1.0.0"
 echo "Project: https://github.com/Hifumi-Sec/cstoexe"
 echo "Support the dev: https://github.com/sponsors/hifumi-sec"
 echo

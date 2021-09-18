@@ -30,11 +30,21 @@ echo
 # Updates current packages
 sudo apt update
 
+# Installs required package
+if ! which mono > /dev/null; then
+    echo -e "Command is not present. Would you like to install it (y/n)? \c"
+    read user_reply
+    if "$user_reply" = "y"; then
+        mono_install = "sudo apt install mono-complete"
+        echo $mono_install
+    fi
+else
+    echo "Mono is already installed."
+fi
+
 echo -n "Input the name of your C# file without the extension (ex: fileName): "
 read csFileName
 
-# Installs required package
-sudo apt install mono-complete
 
 # Converts C# script to an executable 
 mcs -out:$csFileName.exe $csFileName.cs

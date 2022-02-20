@@ -7,5 +7,5 @@ chmod +x cstoexe.sh
 ```
 
 ```bash
-./cstoexe.sh test.cs
+./cstoexe.sh
 ```

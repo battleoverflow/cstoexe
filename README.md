@@ -1,10 +1,11 @@
-# cstoexe
-Simple bash script to convert a C# file to an exe on Linux.
+# C# => .exe
+Simple bash script for converting a C# file to an executable.
 
 ## Usage
 ```bash
 chmod +x cstoexe.sh
 ```
+
 ```bash
-./cstoexe.sh
+./cstoexe.sh test.cs
 ```

@@ -1,17 +1,15 @@
 #!/bin/bash
 
 #########################################################
-# Author: Hifumi1337                                    #
-# Version: 1.0.3                                        #
-# Project: https://github.com/Hifumi1337/cstoexe        #
-# Created: 09/16/2021                                   #
+# Author: azazelm3dj3d                                  #
+# Learn more: https://github.com/azazelm3dj3d/cstoexe   #
 #########################################################
 
 function banner {
     echo
-    echo "Author: Hifumi1337 (https://github.com/Hifumi1337)"
-    echo "Version: 1.0.3"
-    echo "Project: https://github.com/Hifumi1337/cstoexe"
+    echo "Author: azazelm3dj3d (https://github.com/azazelm3dj3d)"
+    echo "Version: 1.0.4"
+    echo "Learn more: https://github.com/azazelm3dj3d/cstoexe"
     echo
 }
 
@@ -29,7 +27,6 @@ function cstoexe {
         if "$user_reply" = "y"; then
             # Updates current packages
             sudo apt update
-
             echo
 
             mono_install = "sudo apt install mono-complete"
@@ -56,7 +53,7 @@ function cstoexe {
         mono $csFileName
     else
         echo "Thank you for using cstoexe!"
-    fi   
+    fi
 }
 
 cstoexe

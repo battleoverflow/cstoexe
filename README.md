@@ -7,11 +7,8 @@ This command will give the script executable permissions
 chmod +x cstoexe.sh
 ```
 
-Run the script
 ```bash
 ./cstoexe.sh
 ```
 
-Tested on:
-- Linux (Debian)
-- macOS
+NOTE: Due to the evolution of .NET, this script may not work (perfectly) for .NET 6.0+. It all depends on which features are used during development.

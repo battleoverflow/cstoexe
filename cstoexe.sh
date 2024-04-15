@@ -1,15 +1,15 @@
 #!/bin/bash
 
 #########################################################
-# Author: azazelm3dj3d                                  #
-# Learn more: https://github.com/azazelm3dj3d/cstoexe   #
+# Author: battleoverflow                                #
+# Learn more: https://github.com/battleoverflow/cstoexe #
 #########################################################
 
 function banner {
     echo
-    echo "Author: azazelm3dj3d (https://github.com/azazelm3dj3d)"
+    echo "Author: battleoverflow (https://github.com/battleoverflow)"
     echo "Version: 1.0.4"
-    echo "Learn more: https://github.com/azazelm3dj3d/cstoexe"
+    echo "Learn more: https://github.com/battleoverflow/cstoexe"
     echo
 }
 
